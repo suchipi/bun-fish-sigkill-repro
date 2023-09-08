@@ -8,7 +8,7 @@ when running a script with bun in fish shell, it exits with SIGKILL even though 
 - install fish (I used MacPorts to get it)
 - install bun v1.0.0 via `curl -fsSL https://bun.sh/install | bash`
 - clone this repo
-- run `./script.js` or `bin script.js`
+- run `./script.js` or `bun script.js`
 - note that the process is terminated with SIGKILL (exit code 137) even though it ran to completion
 
 ## sample output
